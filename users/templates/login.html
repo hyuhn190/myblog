@@ -1,0 +1,51 @@
+<!-- login.html -->
+<h1>登录</h1>
+
+<form method="post">
+  {% csrf_token %}
+  <input type="hidden" name="next" value="{{ next }}">
+
+  <p>
+    {{ form.username.label_tag }}
+    {{ form.username }}
+    {% if form.username.errors %}
+      <span class="text-danger">{{ form.username.errors }}</span>
+    {% endif %}
+  </p>
+  <p>
+    {{ form.password.label_tag }}
+    {{ form.password }}
+    {% if form.password.errors %}
+      <span class="text-danger">{{ form.password.errors }}</span>
+    {% endif %}
+  </p>
+  <button type="submit">登录</button>
+</form>
+
+<!-- 新增注册跳转链接 -->
+<div class="register-link">
+  <p>没有账号？<a href="{% url 'register' %}?next={{ next }}">立即注册</a></p>
+</div>
+
+<style>
+.register-link {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.register-link p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+</style>

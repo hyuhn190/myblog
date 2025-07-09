@@ -1,0 +1,28 @@
+
+<ul>
+  {% for blog in blogs %}
+    <li>
+      {% if user.is_authenticated %}
+        <a href="{% url 'blog_detail' blog.id %}">{{ blog.title }}</a>
+      {% else %}
+        <span class="disabled-link" onclick="showLoginAlert()">{{ blog.title }}</span>
+      {% endif %}
+      <span>by {{ blog.author.username }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+<script>
+function showLoginAlert() {
+  alert("请先登录才能查看博客详情");
+  window.location.href = "/users/login/";
+}
+</script>
+
+<style>
+.disabled-link {
+  color: #999;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+</style>

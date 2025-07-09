@@ -1,0 +1,28 @@
+<h1>注册</h1>
+<form method="post">
+  {% csrf_token %}
+  <input type="hidden" name="next" value="{{ next }}">
+
+  <p>
+    {{ form.username.label_tag }}<br>
+    {{ form.username }}
+    {% if form.username.errors %}
+      <span class="text-danger">{{ form.username.errors }}</span>
+    {% endif %}
+  </p>
+  <p>
+    {{ form.password1.label_tag }}<br>
+    {{ form.password1 }}
+    {% if form.password1.errors %}
+      <span class="text-danger">{{ form.password1.errors }}</span>
+    {% endif %}
+  </p>
+  <p>
+    {{ form.password2.label_tag }}<br>
+    {{ form.password2 }}
+    {% if form.password2.errors %}
+      <span class="text-danger">{{ form.password2.errors }}</span>
+    {% endif %}
+  </p>
+  <button type="submit">注册</button>
+</form>

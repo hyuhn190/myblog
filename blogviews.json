@@ -1,0 +1,38 @@
+[
+  {
+    "model": "myblog.blogview",
+    "pk": 1,
+    "fields": {
+      "blog": 1,
+      "user": 1,
+      "viewed_at": "2025-07-08T12:00:00Z"
+    }
+  },
+  {
+    "model": "myblog.blogview",
+    "pk": 2,
+    "fields": {
+      "blog": 1,
+      "user": 2,
+      "viewed_at": "2025-07-08T12:05:00Z"
+    }
+  },
+  {
+    "model": "myblog.blogview",
+    "pk": 3,
+    "fields": {
+      "blog": 1,
+      "user": 1,
+      "viewed_at": "2025-07-08T12:10:00Z"
+    }
+  },
+  {
+    "model": "myblog.blogview",
+    "pk": 4,
+    "fields": {
+      "blog": 2,
+      "user": 2,
+      "viewed_at": "2025-07-08T13:00:00Z"
+    }
+  }
+]
