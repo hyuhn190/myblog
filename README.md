@@ -198,10 +198,10 @@ python manage.py log_cache_stats
 ## 📝 示例截图
 
 ### 博客首页
-![image-20250709080505314](C:\Users\hy303\AppData\Roaming\Typora\typora-user-images\image-20250709080505314.png)
+![image-20250709080505314](https://github.com/user-attachments/assets/900b9686-35b7-43ce-a1d7-5bc49db93173)
 
 ### 博客详情页
-![image-20250709080606851](C:\Users\hy303\AppData\Roaming\Typora\typora-user-images\image-20250709080606851.png)
+![image-20250709080606851](https://github.com/user-attachments/assets/5725bd1c-30b6-448c-a178-d4c0df8b9dde)
 
 ---
 
