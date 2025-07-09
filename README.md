@@ -121,6 +121,13 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
+### 导入数据
+
+```bash
+python manage.py loaddata user.json
+python manage.py loaddata myblogs.json
+python manage.py loaddata blogviews.json
+```
 
 ### 创建管理员账号（可选）
 
@@ -148,7 +155,6 @@ celery -A blog worker --loglevel=info
 ```bash
 python manage.py log_cache_stats
 ```
-
 
 ---
 
