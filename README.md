@@ -53,12 +53,6 @@
 - 使用 Celery + Redis 实现异步任务队列
 - 定时将 Redis 中的阅读统计落库至 MySQL
 
-```python
-@shared_task
-def sync_blog_stats_to_db():
-    ...
-```
-
 
 ---
 
