@@ -1,0 +1,99 @@
+Index: .idea/shelf/_2025_8_14_10_41____.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/_2025_8_14_10_41____.xml b/.idea/shelf/_2025_8_14_10_41____.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/_2025_8_14_10_41____.xml	
+@@ -0,0 +1,4 @@
++<changelist name="在进行更新之前于_2025_8_14_上午10_41_取消提交了更改_[更改]" date="1755139262655" recycled="false" toDelete="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_8_14_上午10_41_取消提交了更改_[更改]/shelved.patch" />
++  <option name="DESCRIPTION" value="在进行更新之前于 2025/8/14 上午10:41 取消提交了更改 [更改]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/myblog.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/myblog.iml b/.idea/myblog.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/myblog.iml	
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++  <component name="TemplatesService">
++    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
++    <option name="TEMPLATE_FOLDERS">
++      <list>
++        <option value="$MODULE_DIR$/myblog/templates" />
++      </list>
++    </option>
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/misc.xml	
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.12" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/easycode.ignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/easycode.ignore b/.idea/easycode.ignore
+new file mode 100644
+--- /dev/null	
++++ b/.idea/easycode.ignore	
+@@ -0,0 +1,13 @@
++.idea
++.vscode
++node_modules/
++dist/
++vendor/
++cache/
++.*/
++*.min.*
++*.test.*
++*.spec.*
++*.bundle.*
++*.bundle-min.*
++*.log
